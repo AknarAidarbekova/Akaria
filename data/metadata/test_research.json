@@ -1,0 +1,17 @@
+{
+  "id": "TEST-001",
+  "name": "Test Fire Experiment",
+  "program": "NASA",
+  "research_type": "solid_combustion",
+  "gravity": "microgravity",
+  "oxygen_concentration": 21,
+  "fuel_type": "solid",
+  "airflow": "controlled",
+  "findings": [
+    "Test finding"
+  ],
+  "source_url": "https://www.nasa.gov/",
+  "limitations": [
+    "Test data only"
+  ]
+}

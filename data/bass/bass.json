@@ -1,0 +1,140 @@
+{
+  "id": "BASS",
+  "name": "Burning and Suppression of Solids",
+  "program": "NASA",
+  "research_type": "solid_combustion",
+  "project_type": "Microgravity Investigation",
+
+  "metadata": {
+    "flight_platform": "Internatioanl Space Station",
+    "start_date": "2009-10-01",
+    "end_date": "2013-06-30",
+    "sponsoring_agency": "NASA",
+    "nasa_center": "Glenn Research Center",
+    "psi_id": "PSI-26",
+    "psi_version": 4,
+    "psi_last_updated": "2025-03-19"
+  },
+
+  "objectives": [
+    "Compare normal-gravity flammability testing, ground-based microgravity tests, and actual material flammability in microgravity",
+    "Investigate flame behavior over longer durations in microgravity",
+    "Assess the effectiveness of an inert gaseous extinguishing agent across different materials, geometries, preheating conditions, and airflow"
+  ],
+  "hypothesis": {
+     "description": "With adequate ventilation, materials in microgravity may burn as well as or better than the same materials in normal gravity under otherwise identical conditions.",
+    "status": "Research hypothesis, not a confirmed finding"
+  },
+
+  "experimental_setup": {
+    "location": "International Space Station",
+    "hardware": [
+      "Microgravity Science Glovebox"
+    ],
+    "fuel_materials": [
+      "75% cotton, 25% fiberglass by mass",
+      "Nomex",
+      "Ultem",
+      "PMMA",
+      "Paraffin wax",
+      "Japan wax"
+    ],
+
+    "igniter": {
+      "type": "Kanthal wire",
+      "gauge": 29
+    },
+    "airflow": {
+      "control": "Variable-speed fan",
+      "max_speed_cm_s": 40,
+      "configurations": [
+        "concurrent-flow",
+        "opposed-flow"
+      ]
+    },
+    "flow_duсt": {
+      "cross_section_mm_mm": [
+        76,
+        76
+      ]
+    },
+    "sample_geometries": [
+      "Flat samples",
+      "spheres",
+      "Cylinders",
+      "Slabs"
+    ]
+  },
+
+  "observed_parameters": [
+    "Flame size",
+    "Flame shape",
+    "Flame color",
+    "Flame spread rate",
+    "Potential Flame quenching"
+  ],
+
+  "extinguishing_agent": {
+    "type": "nitrogen",
+    "purpose": "Evaluate gaseous flame suppression in microgravity"
+  },
+
+  "findings": [],
+  "research_impacts": [
+    "Provides guidance for spacecraft material flammability assessment",
+    "Supports validation of detailed combustion models",
+    "Contributes to understanding flame heat release and radiation",
+    "Provides insight into nitrogen-based flame suppression",
+    "Supports future spacecraft design and crew safety"
+  ],
+
+  "publications": [
+    {"title": "The Microgravity Science Glovebox as a Platform for Exploration Research on the International Space Station",
+      "doi": "10.2514/6.2006-941"
+    },
+    {"title": "Opposed-flow flame spread: A comparison of microgravity and normal gravity experiments to establish the thermal regime",
+      "doi": "10.1016/j.firesaf.2015.11.011"
+    },
+    {"title": "Simplified model for predicting difference between flammability limits of a thin material in normal gravity and microgravity environments",
+      "doi": "10.1016/j.proci.2014.07.017"
+    },
+    {"title": "A Correlation for an Effective Flow Velocity for Capturing the Boundary Layer Effect in Opposed-Flow Flame Spread over Thin Fuels",
+      "doi": "10.1080/00102202.2014.900056"
+    },
+    {"title": "Radiation signature in opposed-flow flame spread",
+      "doi": "10.1504/PCFD.2012.048249"
+    },
+    {"title": "OS24-1 The Effect of Boundary Layer on Blow-Off Extinction in Opposed-Flow Flame Spread: Results of Experiments and Simplified Analysis(invited,Scale modeling on solid combustion,OS24 Scale modeling,FLUID AND THERMODYNAMICS)",
+      "doi": "10.1299/jsmeatem.2015.14.289"
+    },
+    {"title": "Role of Gas Radiation in the Mechanism of Opposed-Flow Flame Spread in a Microgravity Environment",
+      "doi": null
+    },
+    {"title": "Thickness and Fuel Preheating Effects on Material Flammability in Microgravity from the BASS Experiment",
+      "doi": null
+    },
+    {"title": "A novel apparatus for flame spread study",
+      "doi": "10.1016/j.proci.2012.05.076"
+    },
+    {"title": "Opposed-Flow Flame Spread in a Narrow Channel Apparatus over Thin PMMA Sheets",
+      "doi": null
+    }
+  ],
+
+  "data_sources": [
+    {
+    "source_type": "NASA psi investigation records",
+    "source_id": "PSI-26",
+    "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+    "version": 4
+  }
+  ],
+
+  "limitations": [
+    "Oxygen concentration is not specified in the supplied investigation summary",
+    "The supplied summary does not contain detailed numerical experimental results",
+    "The experimental table requires validation before individual runs are used for quantitative analysis"
+  ],
+
+  "data_status": "Investigation metadata and experimental approach extracted; detailed results pending"
+}

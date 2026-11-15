@@ -1,0 +1,24 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-11-14",
+  "investigations": [
+    {
+      "id": "BASS",
+      "name": "Burning and Suppressions of Solids",
+      "file": "data/bass/bass.json",
+      "status": "available"
+    },
+    {
+      "id": "FLEX",
+      "name": "Flame Extinguishment Experiment",
+      "file": "data/flex/flex.json",
+      "status": "planned"
+    },
+    {
+      "id": "SAFFIRE",
+      "name": "Spacecraft Fire Experiment",
+      "file": "data/saffire/saffire.json",
+      "status": "planned"
+    }
+  ]
+}

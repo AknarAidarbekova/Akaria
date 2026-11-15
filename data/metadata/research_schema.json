@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "description": "Standardized schema for space fire research experiments",
+  "required_fields":[
+    "id",
+    "name",
+    "program",
+    "research_type",
+    "source_url"
+  ],
+
+  "fields": {
+  "id": "string",
+  "name": "string",
+  "program": "string",
+  "research_type": "string",
+  "gravity": "string",
+  "oxygen_concentration": "number",
+  "fuel_type": "string",
+  "airflow": "string",
+  "findings": "array",
+  "source_url": "string",
+  "limitations": "array"
+}
+
+}
